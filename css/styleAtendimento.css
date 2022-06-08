@@ -1,0 +1,137 @@
+@media only screen and (max-width:768px){
+    .logo{
+        margin: auto;
+    }
+    
+    .cabecalho-at h1{
+        font-family: corbel;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .cabecalho-at p{
+        margin: auto;
+        font-family: corbel;
+        text-align: center;
+        font-size: 25px;
+        width: 90%;
+    }
+    
+    .ns-btn, .s-btn{
+        width: 100%;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .ns-btn{
+        margin: auto;
+    }
+    
+    .ns-btn p, .s-btn p{
+        text-align: justify;
+        letter-spacing: 1px;
+    }
+    
+    #btn-form-s{
+        height: 50px;
+        width: 50%;
+        margin: auto;
+        background: transparent;
+        color: white;
+        font-size: 20px;
+        border: 1px solid #b1001b;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+    
+    
+    #btn-wpp-ns{
+        height: 48px;
+        width: 50%;
+        background: transparent;
+        color: white;
+        font-size: 20px;
+        border: 1px solid rgb(28,199,19);
+        cursor: pointer;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        position: relative;
+        left: 25%;
+    }
+    
+    
+    .container-at-bts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: corbel;
+    }
+    
+    
+    #navegacao.active #navegacao-form{
+        display: block;
+        
+    }
+
+    #navegacao-form img{
+        display: none;
+    }
+    
+    #navegacao.active #navegacao-form img{
+        height: 20px;
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .content-at{
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .content-op button,
+    .content-mkt button{
+        width: 120px;
+        height: 30px;
+        margin-bottom: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .content-op,
+    .content-mkt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-op p,
+    .content-mkt p{
+        padding: 20px;
+    }
+    
+    .content-op button{
+        height: 28px;
+        background: transparent;
+        border: 1px solid rgb(28,199,19);
+        color: white;
+    }
+    
+    .content-mkt button{
+        background: transparent;
+        border: 1px solid #b1001b;
+        color: white;
+    }
+
+    #formulario-at{
+        display: none;
+    }
+    
+}
